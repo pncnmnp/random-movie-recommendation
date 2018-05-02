@@ -12,11 +12,16 @@ You can run the code normally by entering:
 python3.5 recommendation-engine.py
 ```
 
-**Note: If you get an error 'no such module' for ImageTk, use the following code to download
-ImageTk for python3 and above**
+To download beautifulSoup use:
+```
+pip3 install beautifulsoup4
+```
+
+To download ImageTk use:
 ```
 sudo apt-get install python3-pil python3-pil.imagetk
 ```
+
 ## Contributions
 This project uses the data provided by [grouplens](https://grouplens.org/datasets/movielens/).
 I would like to thank them for such an awesome database.
